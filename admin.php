@@ -8,6 +8,6 @@
 <body>
     <h2>Welcome to Admin</h2>
 
-    <a href="logout.php"></a>
+    <a href="logout.php">Log out</a>
 </body>
 </html>
