@@ -1,11 +1,12 @@
 <?php
+session_start();
 
 $message = '';
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     //example credentials
-    $username = 'admin';
+    $username = 'Ayomide';
     $password = 'secret';
 
 
@@ -27,9 +28,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 }
 ?>
-
-
-
 
 
 
